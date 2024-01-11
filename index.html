@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Converter</title>
-   <script scr="script.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="flexCenter column1">
         <h1>Binary Converter</h1>
         <input type="number" placeholder="Enter your number" id="in">
-        <button onclick="o()" id="check">Enter</button>
+        <button onclick="convert()" id="check">Enter</button>
+    </div>
+    <div class="flexCenter row">
         <div class="ans">
             <p id="ans">0</p>
         </div>
     </div>
 </body>
+
 </html>
